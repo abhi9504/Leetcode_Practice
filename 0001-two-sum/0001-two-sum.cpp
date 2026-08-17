@@ -1,23 +1,16 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        // Abhi Code Karo
+        // Using Hash Map
         int n = nums.size();
-        vector<pair<int, int>> p;
+        unordered_map<int, int> mp;
         for(int i=0; i<n; i++) {
-            p.push_back({nums[i], i});
+            int sum = target - nums[i];
+            if(mp.find(sum) != mp.end()) {
+                return {mp[sum], i};
+            }
+            mp[nums[i]] = i;
         }
-        // Sort
-        sort(p.begin(), p.end());
-        // Use Two ptr
-        int s = 0;
-        int e = p.size()-1;
-        while(s < e) {
-            int sum = p[s].first + p[e].first;
-            if(sum == target)  return {p[s].second, p[e].second};
-            else if(sum > target) e--;
-            else s++;
-        }
-         return {};
+        return {};
     }
 };
