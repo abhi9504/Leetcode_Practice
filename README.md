@@ -8,6 +8,7 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/abhi9504/Leetcode_Practice/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
 | [0344-reverse-string](https://github.com/abhi9504/Leetcode_Practice/tree/master/0344-reverse-string) |
 ## Array
@@ -29,4 +30,12 @@
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/abhi9504/Leetcode_Practice/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/abhi9504/Leetcode_Practice/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
