@@ -4,6 +4,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/abhi9504/Leetcode_Practice/tree/master/0344-reverse-string) |
 ## String
@@ -16,6 +17,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/abhi9504/Leetcode_Practice/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
