@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0125-valid-palindrome](https://github.com/abhi9504/Leetcode_Practice/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/abhi9504/Leetcode_Practice/tree/master/0344-reverse-string) |
 ## String
@@ -12,6 +13,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/abhi9504/Leetcode_Practice/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/abhi9504/Leetcode_Practice/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/abhi9504/Leetcode_Practice/tree/master/0344-reverse-string) |
 ## Array
 |  |
