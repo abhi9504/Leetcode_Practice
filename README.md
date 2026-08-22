@@ -87,10 +87,12 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhi9504/Leetcode_Practice/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0207-course-schedule](https://github.com/abhi9504/Leetcode_Practice/tree/master/0207-course-schedule) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhi9504/Leetcode_Practice/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0207-course-schedule](https://github.com/abhi9504/Leetcode_Practice/tree/master/0207-course-schedule) |
 ## Binary Tree
 |  |
 | ------- |
@@ -108,4 +110,16 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/abhi9504/Leetcode_Practice/tree/master/0070-climbing-stairs) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/abhi9504/Leetcode_Practice/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/abhi9504/Leetcode_Practice/tree/master/0207-course-schedule) |
+## Directed Acyclic Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/abhi9504/Leetcode_Practice/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
