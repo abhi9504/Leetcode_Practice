@@ -14,6 +14,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/abhi9504/Leetcode_Practice/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/abhi9504/Leetcode_Practice/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/abhi9504/Leetcode_Practice/tree/master/0344-reverse-string) |
 ## Array
@@ -23,6 +24,7 @@
 | [0011-container-with-most-water](https://github.com/abhi9504/Leetcode_Practice/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhi9504/Leetcode_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
@@ -86,6 +88,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/abhi9504/Leetcode_Practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/abhi9504/Leetcode_Practice/tree/master/0207-course-schedule) |
 ## Breadth-First Search
@@ -122,4 +125,12 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/abhi9504/Leetcode_Practice/tree/master/0207-course-schedule) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
