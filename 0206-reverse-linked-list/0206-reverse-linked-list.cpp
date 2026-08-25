@@ -10,26 +10,18 @@
  */
 class Solution {
 public:
-    ListNode* revUsingRecursion(ListNode* prev, ListNode* curr) {
-        // Base Case
-        if(curr == NULL)  return prev;
-
-        // Ek case ham solve krange baki recursion sambhal lega
-        ListNode* nex = curr->next;
-        curr->next = prev;
-        prev = curr;
-        curr = nex;
-
-        // Recursive call
-        ListNode* recursionKaAns = revUsingRecursion(prev, curr);
-
-        return recursionKaAns;
-    }
     ListNode* reverseList(ListNode* head) {
-        // Using Recursion
+        // Abhi Code Karo
+        // Using Three Variable
         ListNode* prev = NULL;
         ListNode* curr = head;
 
-        return revUsingRecursion(prev, curr);
+        while(curr != NULL) {
+            ListNode* nex = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nex;
+        }
+        return prev;
     }
 };
