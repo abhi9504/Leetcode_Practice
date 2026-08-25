@@ -27,6 +27,7 @@
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhi9504/Leetcode_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
@@ -146,4 +147,8 @@
 |  |
 | ------- |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
