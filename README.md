@@ -29,6 +29,7 @@
 | [0011-container-with-most-water](https://github.com/abhi9504/Leetcode_Practice/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
+| [0078-subsets](https://github.com/abhi9504/Leetcode_Practice/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhi9504/Leetcode_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0136-single-number) |
@@ -152,6 +153,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/abhi9504/Leetcode_Practice/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 ## Matrix
 |  |
@@ -164,6 +166,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/abhi9504/Leetcode_Practice/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0136-single-number) |
 ## Floyd's Cycle Finding Algorithm
 |  |
