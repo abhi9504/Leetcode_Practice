@@ -6,6 +6,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/abhi9504/Leetcode_Practice/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/abhi9504/Leetcode_Practice/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/abhi9504/Leetcode_Practice/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/abhi9504/Leetcode_Practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0142-linked-list-cycle-ii) |
@@ -28,6 +29,7 @@
 | [0001-two-sum](https://github.com/abhi9504/Leetcode_Practice/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/abhi9504/Leetcode_Practice/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0031-next-permutation](https://github.com/abhi9504/Leetcode_Practice/tree/master/0031-next-permutation) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/abhi9504/Leetcode_Practice/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
