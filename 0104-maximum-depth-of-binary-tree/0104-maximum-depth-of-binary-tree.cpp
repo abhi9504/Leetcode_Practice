@@ -12,14 +12,12 @@
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
-       // Q2. Day-4/30
-       // Base Case
-       if(root == NULL)  return 0;
+        // Base Case
+        if(root == NULL)  return 0;
 
-       int left = maxDepth(root->left);
-       int right = maxDepth(root->right);
+        int left = maxDepth(root->left);
+        int right = maxDepth(root->right);
 
-       return max(left, right) + 1;
-
+        return max(left, right) + 1;
     }
 };
