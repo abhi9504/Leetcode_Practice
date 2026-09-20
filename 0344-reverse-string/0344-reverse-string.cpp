@@ -1,18 +1,15 @@
 class Solution {
 public:
-    void solve(int st, int e, vector<char>& s) {
-         // Base Case
-         if(st >= e) return;
-
-          swap(s[st], s[e]);
-          solve(st+=1, e-=1, s);
-
-    }
     void reverseString(vector<char>& s) {
-        // Abhi Code karo
-        // Using Recursion
-        int n = s.size();
-    
-        solve(0, n-1, s);
+       int n = s.size();
+       vector<char> ans;
+       for(int i=n-1; i>=0; i--){
+         ans.push_back(s[i]);
+       } 
+       int i =0;
+       while(i < ans.size()) {
+        s[i] = ans[i];
+        i++;
+       }
     }
 };
