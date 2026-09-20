@@ -12,6 +12,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0202-happy-number) |
+| [0283-move-zeroes](https://github.com/abhi9504/Leetcode_Practice/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/abhi9504/Leetcode_Practice/tree/master/0344-reverse-string) |
 | [0876-middle-of-the-linked-list](https://github.com/abhi9504/Leetcode_Practice/tree/master/0876-middle-of-the-linked-list) |
 ## String
@@ -37,6 +38,7 @@
 | [0136-single-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0283-move-zeroes](https://github.com/abhi9504/Leetcode_Practice/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0704-binary-search) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
