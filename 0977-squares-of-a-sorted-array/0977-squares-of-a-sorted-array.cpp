@@ -3,12 +3,18 @@ public:
     vector<int> sortedSquares(vector<int>& nums) {
         // abhi Code Karo
         int n = nums.size();
-        vector<int> ans;
+        map<int, int> mp;
         for(int i=0; i<n; i++) {
-            ans.push_back(nums[i] * nums[i]);
+         mp[nums[i] * nums[i]]++;
         }
-        sort(ans.begin(), ans.end());
+        int i = 0;
+        for(auto it : mp) {
+            while(it.second--){
+            nums[i] = it.first;
+            i++;
+            }
+        }
 
-        return ans;
+        return nums;
     }
 };
