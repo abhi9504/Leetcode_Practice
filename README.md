@@ -15,6 +15,7 @@
 | [0283-move-zeroes](https://github.com/abhi9504/Leetcode_Practice/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/abhi9504/Leetcode_Practice/tree/master/0344-reverse-string) |
 | [0876-middle-of-the-linked-list](https://github.com/abhi9504/Leetcode_Practice/tree/master/0876-middle-of-the-linked-list) |
+| [0977-squares-of-a-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0977-squares-of-a-sorted-array) |
 ## String
 |  |
 | ------- |
@@ -41,6 +42,7 @@
 | [0283-move-zeroes](https://github.com/abhi9504/Leetcode_Practice/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0704-binary-search) |
+| [0977-squares-of-a-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
 ## Hash Table
 |  |
@@ -55,6 +57,7 @@
 | ------- |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0977-squares-of-a-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
 ## Sliding Window
 |  |
