@@ -42,6 +42,7 @@
 | [0283-move-zeroes](https://github.com/abhi9504/Leetcode_Practice/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0704-binary-search) |
+| [0713-subarray-product-less-than-k](https://github.com/abhi9504/Leetcode_Practice/tree/master/0713-subarray-product-less-than-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
 ## Hash Table
@@ -63,6 +64,7 @@
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
+| [0713-subarray-product-less-than-k](https://github.com/abhi9504/Leetcode_Practice/tree/master/0713-subarray-product-less-than-k) |
 ## Stack
 |  |
 | ------- |
@@ -76,6 +78,7 @@
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0704-binary-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0704-binary-search) |
+| [0713-subarray-product-less-than-k](https://github.com/abhi9504/Leetcode_Practice/tree/master/0713-subarray-product-less-than-k) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
 ## Greedy
 |  |
@@ -181,4 +184,8 @@
 | [0141-linked-list-cycle](https://github.com/abhi9504/Leetcode_Practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0202-happy-number) |
+## Prefix Sum
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/abhi9504/Leetcode_Practice/tree/master/0713-subarray-product-less-than-k) |
 <!---LeetCode Topics End-->
