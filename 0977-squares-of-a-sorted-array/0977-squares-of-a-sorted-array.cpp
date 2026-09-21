@@ -1,20 +1,28 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        // abhi Code Karo
+        // Abhi Code Karo
+        // solve using 3 ptr
         int n = nums.size();
-        map<int, int> mp;
-        for(int i=0; i<n; i++) {
-         mp[nums[i] * nums[i]]++;
-        }
-        int i = 0;
-        for(auto it : mp) {
-            while(it.second--){
-            nums[i] = it.first;
-            i++;
-            }
-        }
+        vector<int> ans(n);
+        int s = 0;
+        int e = n-1;
+        int idx = n-1;
 
-        return nums;
+        while(s <= e) {
+            int sSquare = nums[s] * nums[s];
+            int eSquare = nums[e] * nums[e];
+
+            if(eSquare > sSquare) {
+                ans[idx] = eSquare;
+                e--;
+            }
+            else {
+                ans[idx] = sSquare;
+                s++;
+            }
+            idx--;
+        }
+        return ans;
     }
 };
