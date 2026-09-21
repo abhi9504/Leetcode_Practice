@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        // Abhi Code Karo
+        //Abhi Code Karo
         ListNode* slow = head;
         ListNode* fast = head;
 
