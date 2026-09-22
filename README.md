@@ -7,6 +7,7 @@
 | [0011-container-with-most-water](https://github.com/abhi9504/Leetcode_Practice/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/abhi9504/Leetcode_Practice/tree/master/0031-next-permutation) |
+| [0075-sort-colors](https://github.com/abhi9504/Leetcode_Practice/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/abhi9504/Leetcode_Practice/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/abhi9504/Leetcode_Practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0142-linked-list-cycle-ii) |
@@ -33,6 +34,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/abhi9504/Leetcode_Practice/tree/master/0031-next-permutation) |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/abhi9504/Leetcode_Practice/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/abhi9504/Leetcode_Practice/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhi9504/Leetcode_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -57,6 +59,7 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/abhi9504/Leetcode_Practice/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
@@ -188,4 +191,12 @@
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/abhi9504/Leetcode_Practice/tree/master/0713-subarray-product-less-than-k) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/abhi9504/Leetcode_Practice/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/abhi9504/Leetcode_Practice/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
