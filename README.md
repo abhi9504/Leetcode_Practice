@@ -40,6 +40,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhi9504/Leetcode_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0198-house-robber](https://github.com/abhi9504/Leetcode_Practice/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/abhi9504/Leetcode_Practice/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
@@ -142,6 +143,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/abhi9504/Leetcode_Practice/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/abhi9504/Leetcode_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0198-house-robber](https://github.com/abhi9504/Leetcode_Practice/tree/master/0198-house-robber) |
 ## Math
 |  |
 | ------- |
