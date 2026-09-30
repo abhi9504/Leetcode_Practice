@@ -1,23 +1,21 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, int i, vector<int>& dp) {
+    int dp[101];
+    int solve(int i, vector<int>& nums) {
         // Base Case
         if(i >= nums.size())  return 0;
 
-        // check already exist cond
+        // check already exist condition
         if(dp[i] != -1)  return dp[i];
 
-        int Chori = nums[i] + solve(nums, i+2, dp);
-        int NotChori = 0 + solve(nums, i+1, dp);
+        int chori = nums[i] + solve(i+2, nums);
+        int Notchori = 0 + solve(i+1, nums);
 
-        return dp[i] = max(Chori, NotChori);
+        return dp[i] = max(chori, Notchori);
     }
     int rob(vector<int>& nums) {
-      // Abhi Code Karo
-      int n = nums.size();
-      vector<int> dp(n+1, -1);
-      int i = 0;
-
-      return solve(nums, i, dp);  
+     // Abhi Code Karo
+     memset(dp, -1, sizeof(dp));
+     return solve(0, nums);   
     }
 };
