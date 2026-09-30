@@ -1,21 +1,22 @@
 class Solution {
 public:
-    int dp[101];
-    int solve(int i, vector<int>& nums) {
-        // Base Case
-        if(i >= nums.size())  return 0;
+    int solveTab(vector<int>& nums) {
+        int n = nums.size();
+        int prev2 = 0;
+        int prev1 = nums[0];
 
-        // check already exist condition
-        if(dp[i] != -1)  return dp[i];
-
-        int chori = nums[i] + solve(i+2, nums);
-        int Notchori = 0 + solve(i+1, nums);
-
-        return dp[i] = max(chori, Notchori);
+        for(int i=1; i<n; i++) {
+            int chori = prev2 + nums[i];
+            int Notchori = prev1 + 0;
+            int ans = max(chori, Notchori);
+            // aage badhao
+            prev2 = prev1;
+            prev1 = ans;
+        }
+       return prev1;
     }
     int rob(vector<int>& nums) {
-     // Abhi Code Karo
-     memset(dp, -1, sizeof(dp));
-     return solve(0, nums);   
+        // Abhi Code Karo
+        return solveTab(nums);
     }
 };
