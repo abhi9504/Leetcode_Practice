@@ -1,34 +1,36 @@
 class Solution {
 public:
-    int dp[101];
-    int solve(vector<int>& nums, int i, int n) {
-        // base case
-        if(i >= n)  return 0;
+    int solveTab(vector<int>& nums) {
+        int n = nums.size();
+        int prev2 = 0;
+        int prev1 = nums[0];
 
-        // check dp condition
-        if(dp[i] != -1)  return dp[i];
+        for(int i=1; i<n; i++) {
+            int chori = prev2 + nums[i];
+            int Notchori = prev1 + 0;
+            int ans = max(chori, Notchori);
 
-        // recursive case
-        int pick = nums[i] + solve(nums, i+2, n);
-        int nopick = solve(nums, i+1, n);
-
-        return dp[i] = max(pick, nopick);
+            // aage badhao
+            prev2 = prev1;
+            prev1 = ans;
+        }
+        return prev1;
     }
     int rob(vector<int>& nums) {
-        // Abhi code Karo
         int n = nums.size();
-        // vector<int> dp(n, -1);
-        memset(dp, -1, sizeof(dp));
+        vector<int>first,second;
 
-        // edge case bhul jate hai
         if(n == 1)  return nums[0];
 
-        memset(dp, -1, sizeof(dp));
-        int case1 = solve(nums, 0, n-1);
-        // fill(dp.begin(), dp.end(), -1);
-        memset(dp, -1, sizeof(dp));
-        int case2 = solve(nums, 1, n);
+        for(int i=0; i<n; i++) {
+            if(i != 0) {
+              first.push_back(nums[i]);  
+            }
+            if(i != n-1) {
+                second.push_back(nums[i]);
+            }
+        }
 
-        return max(case1, case2);
+        return max(solveTab(first), solveTab(second));
     }
 };
