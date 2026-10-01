@@ -1,36 +1,32 @@
 class Solution {
 public:
-    int solveTab(vector<int>& nums) {
-        int n = nums.size();
-        int prev2 = 0;
-        int prev1 = nums[0];
+    int dp[101];
+    int solve(int i, int n, vector<int>& nums) {
+        // Base Case
+        if(i >= n) return 0;
 
-        for(int i=1; i<n; i++) {
-            int chori = prev2 + nums[i];
-            int Notchori = prev1 + 0;
-            int ans = max(chori, Notchori);
+        // check already exist cond
+        if(dp[i]  != -1)  return dp[i];
 
-            // aage badhao
-            prev2 = prev1;
-            prev1 = ans;
-        }
-        return prev1;
+        int chori = nums[i] + solve(i+2, n, nums);
+        int Notchori = 0 + solve(i+1, n, nums);
+
+        return dp[i] = max(chori, Notchori);
     }
     int rob(vector<int>& nums) {
+        memset(dp, -1, sizeof(dp));
         int n = nums.size();
-        vector<int>first,second;
 
+        // edge case hamesha yaad akro bhul jate h
         if(n == 1)  return nums[0];
 
-        for(int i=0; i<n; i++) {
-            if(i != 0) {
-              first.push_back(nums[i]);  
-            }
-            if(i != n-1) {
-                second.push_back(nums[i]);
-            }
-        }
+        // 1 to n
+        memset(dp, -1, sizeof(dp));
+        int case1 = solve(1, n, nums);
+        // 0 to n-1
+        memset(dp, -1, sizeof(dp));
+        int case2 = solve(0, n-1, nums);
 
-        return max(solveTab(first), solveTab(second));
+        return max(case1, case2);
     }
 };
