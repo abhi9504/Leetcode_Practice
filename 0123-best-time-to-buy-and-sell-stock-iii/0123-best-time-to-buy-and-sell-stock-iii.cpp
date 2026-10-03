@@ -22,12 +22,44 @@ public:
         }
         return dp[i][buy][limit] = profit;
     }
+
+    int solveTab(vector<int>& prices) {
+        int n = prices.size();
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(3, 0)));
+
+        for(int i=n-1; i>=0; i--) {
+            for(int buy=0; buy<=1; buy++) {
+                for(int limit=1; limit<=2; limit++) {
+                      int profit = 0;
+
+                        if(buy) {
+                            int buyKaro = -prices[i] + dp[i+1][0][limit];
+                            int skipKaro = 0 + dp[i+1][1][limit];
+                            profit = max(buyKaro, skipKaro);
+                        }
+                        else {
+                            int sellKaro = prices[i] + dp[i+1][1][limit-1];
+                            int skipKaro = 0 + dp[i+1][0][limit];
+                            profit = max(sellKaro, skipKaro);
+                        }
+                        dp[i][buy][limit] = profit;
+                }
+            }
+        }
+        return dp[0][1][2];
+    }
+
     int maxProfit(vector<int>& prices) {
         // Abhi Code Karo
         // Here is 3d dp use rec + 3d Dp
-        int n = prices.size();
-        vector<vector<vector<int>>> dp(n, vector<vector<int>>(2, vector<int>(3, -1)));
+        // function call by recu + memoization
+        // int n = prices.size();
+        // vector<vector<vector<int>>> dp(n, vector<vector<int>>(2, vector<int>(3, -1)));
 
-        return solve(0, 1, 2, prices, dp);
+        // return solve(0, 1, 2, prices, dp);
+
+
+        // function call by Tabulation
+        return solveTab(prices);
     }
 };
