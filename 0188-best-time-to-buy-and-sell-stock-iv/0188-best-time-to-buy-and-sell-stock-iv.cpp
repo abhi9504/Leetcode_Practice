@@ -93,10 +93,10 @@ public:
                         }
                        curr[buy][it] = profit;
                 }
-                next = curr;
             }
+             next = curr;
         }
-       return curr[1][k];
+       return next[1][k];
     }
 
 
