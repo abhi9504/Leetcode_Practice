@@ -42,16 +42,46 @@ public:
     }
 
 
+
+     int solveByTab(int i, int buy, vector<int>& prices, int fee) {
+        int n = prices.size();
+        vector<vector<int>> dp(n+1, vector<int>(2, 0));
+
+        for(int i=n-1; i>=0; i--) {
+            for(int buy=0; buy<=1; buy++) {
+                int profit = 0;
+
+                if(buy) {
+                    int buyKaro = -prices[i] + dp[i+1][0];
+                    int skipKaro = 0 + dp[i+1][1];
+                    profit = max(buyKaro, skipKaro);
+                }
+                else {
+                    int sellKaro = prices[i] + dp[i+1][1] - fee;
+                    int skipKaro = 0 + dp[i+1][0];
+                    profit = max(sellKaro, skipKaro);
+                }
+                 dp[i][buy] = profit;
+            }
+        }
+        return dp[0][1];
+    }
+
+
     int maxProfit(vector<int>& prices, int fee) {
       // Abhi Code Karo
       //   //1. function call by recursion TLE
      //   return solveByRec(0, 1, prices, fee);
     
     
-    // 2. function call using rec + 2D Dp memoization
-    int n = prices.size();
-    vector<vector<int>> dp(n, vector<int>(2, -1));
-    return solveByMemo(0, 1, prices, fee, dp);
+    // // 2. function call using rec + 2D Dp memoization
+    // int n = prices.size();
+    // vector<vector<int>> dp(n, vector<int>(2, -1));
+    // return solveByMemo(0, 1, prices, fee, dp);
+
+    
+    // 3. function call using Tabulation
+    return solveByTab(0, 1, prices, fee);
 
     }
 };
