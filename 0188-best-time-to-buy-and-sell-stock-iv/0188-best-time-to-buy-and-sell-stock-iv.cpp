@@ -70,6 +70,36 @@ public:
     }
 
 
+     int solveBySpaceOptimization(int i, int buy, int k, vector<int>& prices) {
+        int n = prices.size();
+        // vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(k+1, 0)));
+        vector<vector<int>> curr(2, vector<int>(k+1, 0));
+        vector<vector<int>> next(2, vector<int>(k+1, 0));
+
+        for(int i=n-1; i>=0; i--) {
+            for(int buy=0; buy<=1; buy++) {
+                for(int it=1; it<=k; it++) {
+
+                     int profit = 0;
+                        if(buy) {
+                            int buyKaro = -prices[i] + next[0][it];
+                            int skipKaro = 0 + next[1][it]; 
+                            profit = max(buyKaro, skipKaro);
+                        }
+                        else {
+                            int sellKaro = prices[i] + next[1][it-1];
+                            int skipKaro = 0 + next[0][it]; 
+                            profit = max(sellKaro, skipKaro);
+                        }
+                       curr[buy][it] = profit;
+                }
+                next = curr;
+            }
+        }
+       return curr[1][k];
+    }
+
+
 
 
     int maxProfit(int k, vector<int>& prices) {
@@ -84,8 +114,10 @@ public:
         // return solveByMemo(0, 1, k, prices, dp);
 
 
-        // 3. function call using Tabulationa
+        // // 3. function call using Tabulationa
+        // return solveByTab(0, 1, k, prices);
 
-        return solveByTab(0, 1, k, prices);
+        // 4. function call by space Optimization
+        return solveBySpaceOptimization(0, 1, k, prices);
     }
 };
