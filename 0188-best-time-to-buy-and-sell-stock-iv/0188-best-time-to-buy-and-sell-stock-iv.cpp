@@ -18,6 +18,8 @@ public:
         }
         return profit;
     }
+
+
      int solveByMemo(int i, int buy, int k, vector<int>& prices, vector<vector<vector<int>>>& dp) {
         // Base Case
         if(i == prices.size())  return 0;
@@ -39,15 +41,51 @@ public:
         }
         return dp[i][buy][k] = profit;
     }
+
+
+     int solveByTab(int i, int buy, int k, vector<int>& prices) {
+        int n = prices.size();
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2, vector<int>(k+1, 0)));
+
+        for(int i=n-1; i>=0; i--) {
+            for(int buy=0; buy<=1; buy++) {
+                for(int it=1; it<=k; it++) {
+
+                     int profit = 0;
+                        if(buy) {
+                            int buyKaro = -prices[i] + dp[i+1][0][it];
+                            int skipKaro = 0 + dp[i+1][1][it]; 
+                            profit = max(buyKaro, skipKaro);
+                        }
+                        else {
+                            int sellKaro = prices[i] + dp[i+1][1][it-1];
+                            int skipKaro = 0 + dp[i+1][0][it]; 
+                            profit = max(sellKaro, skipKaro);
+                        }
+                       dp[i][buy][it] = profit;
+                }
+            }
+        }
+       return dp[0][1][k];
+    }
+
+
+
+
     int maxProfit(int k, vector<int>& prices) {
         // Abhi Code Karo
         // // 1. function call by using Recursion TLE aayega
         // return solveByRec(0, 1, k, prices);
 
-        // 2. function call for Rec + memo using 3D dp
-        int n = prices.size();
-        vector<vector<vector<int>>> dp(n, vector<vector<int>>(2, vector<int>(k+1, -1)));
 
-        return solveByMemo(0, 1, k, prices, dp);
+        // // 2. function call for Rec + memo using 3D dp
+        // int n = prices.size();
+        // vector<vector<vector<int>>> dp(n, vector<vector<int>>(2, vector<int>(k+1, -1)));
+        // return solveByMemo(0, 1, k, prices, dp);
+
+
+        // 3. function call using Tabulationa
+
+        return solveByTab(0, 1, k, prices);
     }
 };
