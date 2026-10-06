@@ -42,6 +42,7 @@
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0136-single-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/abhi9504/Leetcode_Practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/abhi9504/Leetcode_Practice/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/abhi9504/Leetcode_Practice/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0213-house-robber-ii) |
@@ -60,12 +61,14 @@
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/abhi9504/Leetcode_Practice/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0202-happy-number) |
 ## Sorting
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/abhi9504/Leetcode_Practice/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/abhi9504/Leetcode_Practice/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
@@ -109,6 +112,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -224,4 +228,12 @@
 |  |
 | ------- |
 | [0337-house-robber-iii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0337-house-robber-iii) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
