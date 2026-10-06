@@ -47,6 +47,7 @@
 | [0198-house-robber](https://github.com/abhi9504/Leetcode_Practice/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/abhi9504/Leetcode_Practice/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/abhi9504/Leetcode_Practice/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/abhi9504/Leetcode_Practice/tree/master/0704-binary-search) |
@@ -63,6 +64,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/abhi9504/Leetcode_Practice/tree/master/0202-happy-number) |
+| [0229-majority-element-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0229-majority-element-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -70,6 +72,7 @@
 | [0075-sort-colors](https://github.com/abhi9504/Leetcode_Practice/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0229-majority-element-ii) |
 | [0977-squares-of-a-sorted-array](https://github.com/abhi9504/Leetcode_Practice/tree/master/0977-squares-of-a-sorted-array) |
 | [1268-search-suggestions-system](https://github.com/abhi9504/Leetcode_Practice/tree/master/1268-search-suggestions-system) |
 ## Sliding Window
@@ -232,8 +235,10 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0229-majority-element-ii) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/abhi9504/Leetcode_Practice/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/abhi9504/Leetcode_Practice/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
