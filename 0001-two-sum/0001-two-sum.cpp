@@ -2,13 +2,16 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         // Abhi Code Karo
-        // Method1: Brute Force TC=> O(N2) SC=> O(1)
+        // Method2: Using hash map TC=> O(N) + O(N), SC=> O(1)
         int n = nums.size();
-        for(int i=0; i<n-1; i++) {
-            for(int j=i+1; j<n; j++) {
-                if(nums[i] + nums[j] == target) {
-                    return {i, j};
-                }
+        unordered_map<int, int> mp;
+        for(int i=0; i<n; i++) {
+            mp[nums[i]] = i;
+        }
+        for(int i=0; i<n; i++) {
+            int numToFind = target - nums[i];
+            if(mp.find(numToFind) != mp.end() && mp[numToFind] != i) {
+                return {i, mp[numToFind]};
             }
         }
         return {};
