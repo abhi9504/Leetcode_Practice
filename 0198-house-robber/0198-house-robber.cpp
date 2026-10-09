@@ -1,22 +1,43 @@
 class Solution {
 public:
-    int solveTab(vector<int>& nums) {
-        int n = nums.size();
-        int prev2 = 0;
-        int prev1 = nums[0];
+    int solveUsingRec(int i, vector<int>& nums) {
+        // Base Case
+        if(i >= nums.size())  return 0;
 
-        for(int i=1; i<n; i++) {
-            int chori = prev2 + nums[i];
-            int Notchori = prev1 + 0;
-            int ans = max(chori, Notchori);
-            // aage badhao
-            prev2 = prev1;
-            prev1 = ans;
-        }
-       return prev1;
+        // Two option choriKaro or NotChori
+        int chori = nums[i] + solveUsingRec(i+2, nums);
+        int notChori = 0 + solveUsingRec(i+1, nums);
+
+        return max(chori, notChori);
     }
+
+
+     int solveUsingMemo(int i, vector<int>& nums, vector<int>& dp) {
+        // Base Case
+        if(i >= nums.size())  return 0;
+
+        // check already condition
+        if(dp[i] != -1)  return dp[i];
+
+        // Two option choriKaro or NotChori
+        int chori = nums[i] + solveUsingMemo(i+2, nums, dp);
+        int notChori = 0 + solveUsingMemo(i+1, nums, dp);
+
+        return dp[i] = max(chori, notChori);
+    }
+
     int rob(vector<int>& nums) {
         // Abhi Code Karo
-        return solveTab(nums);
+        // //1. Recursion TLE 55/70 testcases passed only
+        // return solveUsingRec(0, nums);
+
+        // Method2: Recursion + memoization + 1D dp
+        // Pass All TestCases and Submit
+        int n = nums.size();
+        vector<int> dp(n+1, -1);
+        return solveUsingMemo(0, nums, dp);
+
     }
 };
+
+
