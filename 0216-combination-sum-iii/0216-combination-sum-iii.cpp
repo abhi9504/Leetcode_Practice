@@ -18,8 +18,8 @@ public:
         // BackTrack
         output.pop_back();
 
-        // check for duplicate combination
-        while(i+1 > candidates.size() && candidates[i] == candidates[i+1])  i++;
+        // // check for duplicate combination
+        // while(i+1 > candidates.size() && candidates[i] == candidates[i+1])  i++;
 
         // exclude
         solve(candidates, target, i+1, ans, output, cnt, k);
